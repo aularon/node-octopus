@@ -1,0 +1,42 @@
+{
+  "version": "0.1.0",
+  "name": "octopus",
+  "description": "A fast & easy web scraping framework",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aularon/node-octopus.git"
+  },
+  "files": [
+      "lib/",
+      "index.js",
+      "README.md"
+  ],
+  "keywords": [
+    "scraping",
+    "web",
+    "spider",
+    "webbot"
+  ],
+  "author": "Hasan Arous <arous.hasan@gmail.com>",
+  "licenses": [
+    {
+      "type": "MPL",
+      "url": "http://www.mozilla.org/MPL/2.0/"
+    }
+  ],
+  "readmeFilename": "README.md",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "elephant": ">=0.1.0",
+    "request": ">=2.12.0",
+    "cheerio-soupselect": ">=0.1.1",
+    "htmlparser2": ">=2.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "make test"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.0-2",
   "name": "octopus",
   "description": "A fast & easy web scraping framework",
   "main": "index.js",
@@ -9,6 +9,7 @@
   },
   "files": [
       "lib/",
+      "examples/",
       "index.js",
       "README.md"
   ],
@@ -33,10 +34,9 @@
     "elephant": ">=0.1.0",
     "request": ">=2.12.0",
     "cheerio-soupselect": ">=0.1.1",
-    "htmlparser2": ">=2.5.0"
+    "htmlparser2": ">=2.5.0",
+    "underscore": ">=1.5.2"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "make test"
-  }
+  "scripts": {}
 }

@@ -6,6 +6,7 @@ var octopus = {
     plugins: {
         logger: require('./lib/plugins/logger'),
         progress: require('./lib/plugins/progress')
-    }
+    },
+    tools: require('./lib/tools')
 }
 module.exports = octopus;

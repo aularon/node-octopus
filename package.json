@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.1-1",
   "name": "octopus",
   "description": "A fast & easy web scraping framework",
   "main": "index.js",
@@ -38,7 +38,8 @@
     "iconv-lite": ">=0.2.11"
   },
   "optionalDependencies": {
-    "elephant": ">=0.1.0"
+    "elephant": ">=0.1.0",
+    "html-entities": ""
 
   },
   "devDependencies": {},

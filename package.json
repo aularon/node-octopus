@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1-1",
+  "version": "0.1.1-2",
   "name": "octopus",
   "description": "A fast & easy web scraping framework",
   "main": "index.js",

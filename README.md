@@ -12,7 +12,7 @@ This package is a product of Syria, 2013.
 ## Installation
 
 ```bash
-npm install octopus
+npm install https://github.com/aularon/node-octopus
 ```
 
 ## Usage & Examples
